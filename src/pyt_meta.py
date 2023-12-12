@@ -18,11 +18,20 @@ from xml.etree.ElementTree import \
      SubElement as et_se
 # -----------------------------------------------------------------------------
 
-__name__ =  'pyt_meta'
-
+__name__            = 'pyt_meta'
+__alias__           = 'pyt_meta'
+__author__          = 'GeoCodable'
+__credits__         = ['GeoCodable']
+__version__         = '1.0.0'
+__maintainer__      = 'GeoCodable'
+__email__           = 'https://github.com/GeoCodable'
+__github_url__      = "https://github.com/GeoCodable/pyt_meta"
+__status__          = 'Beta'
+__create_date__     = '20231011' 
+__version_date__    = '20231215'
 __info__ = \
     '''
-Description:
+    Description:
         The pyt_meta module contains classes and functions that enable automated
         xml metadata file generation for ArcGIS toolboxes and/or any tools contained
         in a given toolbox.   The pyt_meta module enables default metadata
@@ -34,15 +43,6 @@ Description:
         support file documents can be eliminated from the process.  This results in less file
         dependencies and can make toolbox deployments more reliable and efficient.
     '''
-__alias__ = 'pyt_meta'
-
-__author__ = 'A. Hampton'
-
-__version__ = '0.0.1'
-
-__create_date__ = '20201124'
-
-__modified_date__ = '20210727'
 
 __all__ = \
     [

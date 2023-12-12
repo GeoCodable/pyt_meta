@@ -5,8 +5,8 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='pyt_meta',                        # name of the package
-    version='0.0.1',                        # release version
-    author='NGA',                           # org/author
+    version='1.0.0',                        # release version
+    author='GeoCodable',                    # org/author
     description=\
          '''
         Description:
@@ -32,6 +32,8 @@ setuptools.setup(
                         'Programming Language :: Python :: 3.6',
                         'Programming Language :: Python :: 3.7',
                         'Programming Language :: Python :: 3.8',
+                        'Programming Language :: Python :: 3.9',
+                        'Programming Language :: Python :: 3.10',
                         ],                                      
     python_requires='>=3.6',                # minimum version requirement of the package
     py_modules=['pyt_meta'],                # name of the python package
